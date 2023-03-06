@@ -1,10 +1,16 @@
 import React from "react";
 import './index.css'
+import { Link } from "react-router-dom";
 
-const Form =()=> {
+const Form = ()=> {
 
     return(
-        <div className=""></div>
+        <div className="Container">
+            <Link to="/final">
+            <button>Purchase</button>
+            </Link>
+        </div>
+        
     )
 }
 export default Form
