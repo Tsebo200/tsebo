@@ -6,9 +6,11 @@ const Form = ()=> {
 
     return(
         <div className="container">
+                   <div className="space-breaker"></div>
             <div className="image-block"></div>
             <h1>Purchase Ticket</h1>
             <p className="introduction-text">Fill out the form below to purchase your ticket for the Open window Festival 2022</p>
+           
             <form>
                 <label>Your Name & Surname</label><br></br>
                 <input type="text" placeholder="Test Student"></input><br></br><br></br>
