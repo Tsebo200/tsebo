@@ -14,15 +14,15 @@ const Form = ()=> {
             <form>
                 <label>Your Name & Surname</label>
                 <div className= "input-breaker"></div>
-                <input type="text" placeholder="Test Student"></input><br></br>
+                <input className= "input-text-spacing" type="text" placeholder="Test Student"></input><br></br>
 
                 <label>Your Email</label>
                 <div className= "input-breaker"></div>
-                <input type="text" placeholder="test@openwindow.co.za"></input><br></br>
+                <input className= "input-text-spacing" type="text" placeholder="test@openwindow.co.za"></input><br></br>
 
                 <label>Ticket Amount</label>
                 <div className= "input-breaker"></div>
-                <input type="number" placeholder="3"></input><br></br>
+                <input  className= "input-text-spacing" type="number" placeholder="3"></input><br></br>
 
                 <label>Ticket type</label>
                 <div className= "input-breaker"></div>
