@@ -59,18 +59,29 @@ form{
 }
 input{
   width: 90%;
-  height: 30px;
+  height: 40px;
   margin-left: 30px;
   border-radius: 10px;
-  stroke: none;
+  color:#4FACF7;
+  border: none;
+  background-color: #F2F1F2;
 }
-
+::placeholder{
+  color:#4FACF7;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 20px;
+}
 select{
   width: 92%;
   height: 40px;
   margin-left: 30px;
+  padding: 10px;
   border-radius: 10px;
-  stroke: none;
+  color:#4FACF7;
+  font-weight: bold;
+  border: none;
+  background-color: #F2F1F2;
 }
 
 .input-breaker{
@@ -89,6 +100,9 @@ button{
   height: 40px;
   border-radius: 20px;
   margin-left: 20px;
+  background:#4FACF7;
+  color: white;
+  border: none;
 }
 /* Final Form Styling */
 
