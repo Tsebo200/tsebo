@@ -13,11 +13,21 @@ html {
 
 .image-block{
   /* width: 100px; */
-  
-  height: 250px;
+  width: 30%;
+  height: 20%;
   background-image: url('../src/Assets/image.svg');
   background-position: center;
   background-size: cover;
+  align-items: center;
 }
 
 
+h1, h2, h3, h4{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.introduction-text{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
