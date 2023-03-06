@@ -31,3 +31,9 @@ h1, h2, h3, h4{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
+label{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
