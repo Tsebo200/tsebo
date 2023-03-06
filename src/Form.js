@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 const Form = ()=> {
 
     return(
-        <div className="Container">
+        <div className="container">
+            <div className="image-block"></div>
+            
+            
             <Link to="/final">
             <button>Purchase</button>
             </Link>

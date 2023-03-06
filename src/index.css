@@ -2,5 +2,22 @@ html {
   background-color: #4FACF7;
 }
 
+.container{
+  width: 45%;
+  height: 90vh;
+  background: white;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-left: 375px;
+}
+
+.image-block{
+  /* width: 100px; */
+  
+  height: 250px;
+  background-image: url('../src/Assets/image.svg');
+  background-position: center;
+  background-size: cover;
+}
 
 
