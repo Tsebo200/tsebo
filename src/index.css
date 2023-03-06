@@ -37,3 +37,37 @@ label{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Final Form Styling */
+
+.final-container{
+  width: 45%;
+  height: 50vh;
+  background: white;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-left: 375px;
+}
+
+.final-image-block{
+  width: 20%;
+  height: 30%;
+  margin-left: 250px;
+  background-image: url('../src/Assets/image.svg');
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+hr{
+  width: 90%;
+}
+
+.space-breaker{
+  width: 100vh;
+  height: 50px;
+}
+
+.thank-you-msg{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
